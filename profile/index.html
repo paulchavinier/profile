@@ -1,70 +1,83 @@
-<!DOCTYPE html>
 <html>
-
   <head>
-    <title>Paul Chavinier</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <title>Basic info</title>
+
+    <!-- Google fonts -->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700">
+
+    <!-- Fontawesome -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Your style -->
+    <link rel="stylesheet" href="style.css">
   </head>
 
   <body>
-    <img src="../pictures/Profil.jpg">
-    <h1>Paul Chavinier</h1>
-    <h2>Full Stack Developer</h2>
-    <p>
-      After a 9 weeks intensive <a href="http://wwww.lewagon.com">Le Wagon</a> bootcamp I know how to code. For real.
-    </p>
+    <div class="container">
+      <div class="card">
+        <img src="../pictures/Profil.jpg" class="profile">
+        <h1>Paul Chavinier</h1>
+        <h2>Full Stack Developer</h2>
+        <p>
+          After 9 weeks at <a href="http://wwww.lewagon.com">Le Wagon</a> bootcamp, I know how to code. For real.
+        </p>
+      </div>
 
-    <ul>
-      <li>
-        <a href="https://www.facebook.com/paul.chavinier?ref=bookmarks" target="_blank">
-          <i class="fa fa-linkedin-square" aria-hidden="true"></i>Linkedin
-        </a>
-      </li>
-      <li>
-        <a href="https://fr.linkedin.com/in/paulchavinier" target="_blank">
-          <i class="fa fa-facebook" aria-hidden="true"></i>Facebook
-        </a>
-      </li>
-      <li>
-        <a href="https://github.com/paulchavinier" target="_blank">
-          <i class="fa fa-github" aria-hidden="true"></i>Github
-        </a>
-      </li>
-    </ul>
+      <div class="card">
+        <ul>
+          <li>
+            <a href="https://www.facebook.com/paul.chavinier?ref=bookmarks" target="_blank">
+              <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://fr.linkedin.com/in/paulchavinier" target="_blank">
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/paulchavinier" target="_blank">
+              <i class="fa fa-github" aria-hidden="true"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
 
-    <h2>Some Projects...</h2>
-    <table>
-      <tbody>
-        <tr>
-          <td>
-            <img src="../pictures/big_fernand.png" alt="Big Fernand">
-          </td>
-          <td>
-            <h3><a href="http://www.bigfernand.com" target="_blank">Big Fernand</a></h3>
-            <p>Big Fernand est le spécialiste du Hamburgé...Venez donc à Lille pour tester notre fameuses spécialité au Maroilles!</p>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <img src="../pictures/jazz_au_phare.png" alt="Jazz Au Phare 2016">
-          </td>
-          <td>
-            <h3><a href="http://www.jazzauphare.com" target="_blank">Jazz Au Phare</a></h3>
-            <p>Jazz Au Phare se déroule chaque année à l'île de Ré</p>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <img src="../pictures/tat.jpg" alt="Take Away Trips">
-          </td>
-          <td>
-            <h3><a href="http://www.takeawaytris.com" target="_blank">Take Away Trips</a></h3>
-            <p>Take Away Trips vous permet de réaliser vos guides de voyage 100% personnalisés, en version mobile et <b>papier</b></p>
-          </td>
-        </tr>
-      </tbody>
-    </table>
+      <div class="card">
+        <h2>Some Projects...</h2>
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                <img src="../pictures/big_fernand.png" alt="Big Fernand">
+              </td>
+              <td>
+                <h3><a href="http://www.bigfernand.com" target="_blank">Big Fernand</a></h3>
+                <p>Big Fernand est le spécialiste du Hamburgé...Venez donc à Lille pour tester notre fameuse spécialité au Maroilles!</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img src="../pictures/jazz_au_phare.png" alt="Jazz Au Phare 2016">
+              </td>
+              <td>
+                <h3><a href="http://www.jazzauphare.com" target="_blank">Jazz Au Phare</a></h3>
+                <p>Jazz Au Phare se déroule chaque année à l'île de Ré, let's groove</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img src="../pictures/tat.png" alt="Take Away Trips">
+              </td>
+              <td>
+                <h3><a href="http://www.takeawaytrips.com" target="_blank">Take Away Trips</a></h3>
+                <p>Take Away Trips vous permet de réaliser vos guides de voyage 100% personnalisés, en version mobile et papier</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
   </body>
 </html>
-
