@@ -1,0 +1,82 @@
+body {
+  background-color: rgb(225,225,225);
+  background-image: url(../pictures/psyche.png);
+  background-size: cover;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  color: rgb(100,100,100);
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat';
+  font-weight: lighter;
+  color: #78B9E6;
+}
+
+h2{
+  font-size: 20px;
+}
+
+h3{
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(150,150,150);
+}
+
+a:hover {
+  color: #78B9E6;
+  text-decoration: none : ;
+}
+
+.container {
+  width: 500px;
+  margin:0 auto;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px;
+}
+
+.profile {
+  width: 100px;
+  border-radius: 50px;
+}
+
+img {
+  width:  100px;
+  height: 100px;
+}
+
+.fa {
+  font-size: 50px;
+  margin: 30px;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  display: inline-block;
+  list-style: none;
+}
+
+table {
+    font-weight: lighter;
+    font-size: 15px;
+    line-height: 1.6em
+}
+
+td > h3, td > p{
+  margin-left: 20px;
+}
